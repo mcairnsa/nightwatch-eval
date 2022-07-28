@@ -79,7 +79,7 @@
                     <div class="statgroup autobox">
                      <div class="statbox autobox">
                        <div class="label-sessionfull">Tests</div>
-                       <div class="stat-sessionfull">1</div>
+                       <div class="stat-sessionfull">2</div>
                      </div>
                      <div class="statbox autobox">
                       <div class="label-sessionfull">Failed</div>
@@ -97,7 +97,7 @@
                     <div class="statgroup autobox">
                       <div class="statbox autobox">
                         <div class="label-sessionfull">Duration</div>
-                        <div class="stat-sessionfull">1.485 secs</div>
+                        <div class="stat-sessionfull">3.620 secs</div>
                       </div>
                     </div>
                   </div>
@@ -110,16 +110,16 @@
                     <div class="raw-http-log code-sessionfull"><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session  </span></b></div><div>{
      desiredCapabilities: {
        browserName: <span style="color:#0A0">&#39;chrome&#39;<span style="color:#FFF">,
-       <span style="color:#0A0">&#39;goog:chromeOptions&#39;<span style="color:#FFF">: { w3c: <span style="color:#A50">true<span style="color:#FFF">, args: [ <span style="color:#0A0">&#39;headless&#39;<span style="color:#FFF"> ] },
+       <span style="color:#0A0">&#39;goog:chromeOptions&#39;<span style="color:#FFF">: { w3c: <span style="color:#A50">true<span style="color:#FFF">, args: [] },
        name: <span style="color:#0A0">&#39;Location Verification&#39;<span style="color:#FFF">
      },
      capabilities: {
        alwaysMatch: {
          browserName: <span style="color:#0A0">&#39;chrome&#39;<span style="color:#FFF">,
-         <span style="color:#0A0">&#39;goog:chromeOptions&#39;<span style="color:#FFF">: { w3c: <span style="color:#A50">true<span style="color:#FFF">, args: [ <span style="color:#0A0">&#39;headless&#39;<span style="color:#FFF"> ] }
+         <span style="color:#0A0">&#39;goog:chromeOptions&#39;<span style="color:#FFF">: { w3c: <span style="color:#A50">true<span style="color:#FFF">, args: [] }
        }
      }
-  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session (469ms)</div><div>{
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session (528ms)</div><div>{
      value: {
        capabilities: {
          acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
@@ -127,9 +127,9 @@
          browserVersion: <span style="color:#0A0">&#39;103.0.5060.134&#39;<span style="color:#FFF">,
          chrome: {
            chromedriverVersion: <span style="color:#0A0">&#39;103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})&#39;<span style="color:#FFF">,
-           userDataDir: <span style="color:#0A0">&#39;C:\\Users\\Akiru\\AppData\\Local\\Temp\\scoped_dir23136_1454216124&#39;<span style="color:#FFF">
+           userDataDir: <span style="color:#0A0">&#39;C:\\Users\\Akiru\\AppData\\Local\\Temp\\scoped_dir3408_1163591776&#39;<span style="color:#FFF">
          },
-         <span style="color:#0A0">&#39;goog:chromeOptions&#39;<span style="color:#FFF">: { debuggerAddress: <span style="color:#0A0">&#39;localhost:50606&#39;<span style="color:#FFF"> },
+         <span style="color:#0A0">&#39;goog:chromeOptions&#39;<span style="color:#FFF">: { debuggerAddress: <span style="color:#0A0">&#39;localhost:59433&#39;<span style="color:#FFF"> },
          networkConnectionEnabled: <span style="color:#A50">false<span style="color:#FFF">,
          pageLoadStrategy: <span style="color:#0A0">&#39;normal&#39;<span style="color:#FFF">,
          platformName: <span style="color:#0A0">&#39;windows&#39;<span style="color:#FFF">,
@@ -142,30 +142,105 @@
          <span style="color:#0A0">&#39;webauthn:extension:largeBlob&#39;<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
          <span style="color:#0A0">&#39;webauthn:virtualAuthenticators&#39;<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">
        },
-       sessionId: <span style="color:#0A0">&#39;ca3f62394ada5fefcf24ba7cdf6739f2&#39;<span style="color:#FFF">
+       sessionId: <span style="color:#0A0">&#39;1c739cef0b9c92cab447e778a3ca7ba9&#39;<span style="color:#FFF">
      }
-  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/ca3f62394ada5fefcf24ba7cdf6739f2/url  </span></b></div><div>{ url: <span style="color:#0A0">&#39;https://www.designory.com/locations/chicago&#39;<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/ca3f62394ada5fefcf24ba7cdf6739f2/url (1369ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/ca3f62394ada5fefcf24ba7cdf6739f2/elements  </span></b></div><div>{
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/1c739cef0b9c92cab447e778a3ca7ba9/url  </span></b></div><div>{ url: <span style="color:#0A0">&#39;https://www.designory.com/locations/chicago&#39;<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/1c739cef0b9c92cab447e778a3ca7ba9/url (1276ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/1c739cef0b9c92cab447e778a3ca7ba9/elements  </span></b></div><div>{
      using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
      value: <span style="color:#0A0">&#39;#body &gt; div.nav-wrapper.scroll &gt; nav &gt; ul &gt; li:nth-child(4) &gt; ul &gt; li:nth-child(2) &gt; a&#39;<span style="color:#FFF">
-  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/ca3f62394ada5fefcf24ba7cdf6739f2/elements (10ms)</div><div>{
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/1c739cef0b9c92cab447e778a3ca7ba9/elements (11ms)</div><div>{
      value: [
        {
-         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;a9d58638-a005-4986-860e-0a6148c91130&#39;<span style="color:#FFF">
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;465ce0e7-5a77-4d6c-9e7c-3a7b95571304&#39;<span style="color:#FFF">
        }
      ]
-  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/ca3f62394ada5fefcf24ba7cdf6739f2/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#body&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/ca3f62394ada5fefcf24ba7cdf6739f2/elements (12ms)</div><div>{
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/1c739cef0b9c92cab447e778a3ca7ba9/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#body&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/1c739cef0b9c92cab447e778a3ca7ba9/elements (9ms)</div><div>{
      value: [
        {
-         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;48112708-c655-4b4f-805f-e478bd5d1233&#39;<span style="color:#FFF">
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;b74e2b43-1b82-412d-8b94-d7265343c438&#39;<span style="color:#FFF">
        }
      ]
-  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">GET /session/ca3f62394ada5fefcf24ba7cdf6739f2/element/48112708-c655-4b4f-805f-e478bd5d1233/text  </span></b></div><div><span style="color:#0A0">&#39;&#39;<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/ca3f62394ada5fefcf24ba7cdf6739f2/element/48112708-c655-4b4f-805f-e478bd5d1233/text (41ms)</div><div>{
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">GET /session/1c739cef0b9c92cab447e778a3ca7ba9/element/b74e2b43-1b82-412d-8b94-d7265343c438/text  </span></b></div><div><span style="color:#0A0">&#39;&#39;<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/1c739cef0b9c92cab447e778a3ca7ba9/element/b74e2b43-1b82-412d-8b94-d7265343c438/text (38ms)</div><div>{
      value: <span style="color:#0A0">&#39;CHI\n&#39;<span style="color:#FFF"> +
        <span style="color:#0A0">&#39;CHICAGO IL,\n&#39;<span style="color:#FFF"> +
        <span style="color:#0A0">&#39;At such great heights.\n&#39;<span style="color:#FFF"> +
        <span style="color:#0A0">&#39;Situated right on Michigan Avenue in the Michigan Plaza, our ...&#39;<span style="color:#FFF">,
      suppressBase64Data: <span style="color:#A50">true<span style="color:#FFF">
-  }</span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">DELETE /session/ca3f62394ada5fefcf24ba7cdf6739f2  </span></b></div><div><span style="color:#0A0">&#39;&#39;<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /session/ca3f62394ada5fefcf24ba7cdf6739f2 (20ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div></div>
+  }</span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">GET /session/1c739cef0b9c92cab447e778a3ca7ba9/title  </span></b></div><div><span style="color:#0A0">&#39;&#39;<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/1c739cef0b9c92cab447e778a3ca7ba9/title (5ms)</div><div>{ value: <span style="color:#0A0">&#39;Chicago Advertising Agency | The Designory&#39;<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">GET /session/1c739cef0b9c92cab447e778a3ca7ba9/url  </span></b></div><div><span style="color:#0A0">&#39;&#39;<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/1c739cef0b9c92cab447e778a3ca7ba9/url (7ms)</div><div>{ value: <span style="color:#0A0">&#39;https://www.designory.com/locations/chicago&#39;<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">DELETE /session/1c739cef0b9c92cab447e778a3ca7ba9  </span></b></div><div><span style="color:#0A0">&#39;&#39;<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /session/1c739cef0b9c92cab447e778a3ca7ba9 (61ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session  </span></b></div><div>{
+     desiredCapabilities: {
+       browserName: <span style="color:#0A0">&#39;chrome&#39;<span style="color:#FFF">,
+       <span style="color:#0A0">&#39;goog:chromeOptions&#39;<span style="color:#FFF">: { w3c: <span style="color:#A50">true<span style="color:#FFF">, args: [] },
+       name: <span style="color:#0A0">&#39;Location Verification&#39;<span style="color:#FFF">
+     },
+     capabilities: {
+       alwaysMatch: {
+         browserName: <span style="color:#0A0">&#39;chrome&#39;<span style="color:#FFF">,
+         <span style="color:#0A0">&#39;goog:chromeOptions&#39;<span style="color:#FFF">: { w3c: <span style="color:#A50">true<span style="color:#FFF">, args: [] }
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session (531ms)</div><div>{
+     value: {
+       capabilities: {
+         acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
+         browserName: <span style="color:#0A0">&#39;chrome&#39;<span style="color:#FFF">,
+         browserVersion: <span style="color:#0A0">&#39;103.0.5060.134&#39;<span style="color:#FFF">,
+         chrome: {
+           chromedriverVersion: <span style="color:#0A0">&#39;103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})&#39;<span style="color:#FFF">,
+           userDataDir: <span style="color:#0A0">&#39;C:\\Users\\Akiru\\AppData\\Local\\Temp\\scoped_dir18964_1990730898&#39;<span style="color:#FFF">
+         },
+         <span style="color:#0A0">&#39;goog:chromeOptions&#39;<span style="color:#FFF">: { debuggerAddress: <span style="color:#0A0">&#39;localhost:59467&#39;<span style="color:#FFF"> },
+         networkConnectionEnabled: <span style="color:#A50">false<span style="color:#FFF">,
+         pageLoadStrategy: <span style="color:#0A0">&#39;normal&#39;<span style="color:#FFF">,
+         platformName: <span style="color:#0A0">&#39;windows&#39;<span style="color:#FFF">,
+         proxy: {},
+         setWindowRect: <span style="color:#A50">true<span style="color:#FFF">,
+         strictFileInteractability: <span style="color:#A50">false<span style="color:#FFF">,
+         timeouts: { implicit: <span style="color:#A50">0<span style="color:#FFF">, pageLoad: <span style="color:#A50">300000<span style="color:#FFF">, script: <span style="color:#A50">30000<span style="color:#FFF"> },
+         unhandledPromptBehavior: <span style="color:#0A0">&#39;dismiss and notify&#39;<span style="color:#FFF">,
+         <span style="color:#0A0">&#39;webauthn:extension:credBlob&#39;<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">&#39;webauthn:extension:largeBlob&#39;<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">&#39;webauthn:virtualAuthenticators&#39;<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">
+       },
+       sessionId: <span style="color:#0A0">&#39;91116b6def7fc0eac0d04fb9bcec9f38&#39;<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/91116b6def7fc0eac0d04fb9bcec9f38/url  </span></b></div><div>{ url: <span style="color:#0A0">&#39;https://www.designory.com/locations/chicago&#39;<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/91116b6def7fc0eac0d04fb9bcec9f38/url (1316ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/91116b6def7fc0eac0d04fb9bcec9f38/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#body &gt; div.immersive-hero &gt; div.immersive-content-box &gt; div &gt; h1&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/91116b6def7fc0eac0d04fb9bcec9f38/elements (10ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;fd7e2158-6e22-4f46-adfc-b753b81405a4&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">GET /session/91116b6def7fc0eac0d04fb9bcec9f38/element/fd7e2158-6e22-4f46-adfc-b753b81405a4/text  </span></b></div><div><span style="color:#0A0">&#39;&#39;<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/91116b6def7fc0eac0d04fb9bcec9f38/element/fd7e2158-6e22-4f46-adfc-b753b81405a4/text (11ms)</div><div>{ value: <span style="color:#0A0">&#39;CHI&#39;<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/91116b6def7fc0eac0d04fb9bcec9f38/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#body &gt; div.container.location-detail &gt; div &gt; div.grid-12.grid-md-5.grid-xl-6 &gt; div &gt; div:nth-child(2) &gt; div &gt; p&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/91116b6def7fc0eac0d04fb9bcec9f38/elements (11ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;7305137e-bb54-4ff0-8542-65c2d20aea52&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">GET /session/91116b6def7fc0eac0d04fb9bcec9f38/element/7305137e-bb54-4ff0-8542-65c2d20aea52/text  </span></b></div><div><span style="color:#0A0">&#39;&#39;<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/91116b6def7fc0eac0d04fb9bcec9f38/element/7305137e-bb54-4ff0-8542-65c2d20aea52/text (11ms)</div><div>{ value: <span style="color:#0A0">&#39;Phone: +1 312 729 4500&#39;<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/91116b6def7fc0eac0d04fb9bcec9f38/window/fullscreen  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/91116b6def7fc0eac0d04fb9bcec9f38/window/fullscreen (38ms)</div><div>{ value: { height: <span style="color:#A50">1080<span style="color:#FFF">, width: <span style="color:#A50">1920<span style="color:#FFF">, x: <span style="color:#A50">0<span style="color:#FFF">, y: <span style="color:#A50">0<span style="color:#FFF"> } }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/91116b6def7fc0eac0d04fb9bcec9f38/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#body &gt; div.container.location-detail &gt; div &gt; div.grid-12.grid-md-7.grid-xl-6 &gt; h2&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/91116b6def7fc0eac0d04fb9bcec9f38/elements (12ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;9717bb5f-727e-47fd-a4bd-16c1990e8c6c&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">GET /session/91116b6def7fc0eac0d04fb9bcec9f38/element/9717bb5f-727e-47fd-a4bd-16c1990e8c6c/css/font-size  </span></b></div><div><span style="color:#0A0">&#39;&#39;<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/91116b6def7fc0eac0d04fb9bcec9f38/element/9717bb5f-727e-47fd-a4bd-16c1990e8c6c/css/font-size (9ms)</div><div>{ value: <span style="color:#0A0">&#39;40px&#39;<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/91116b6def7fc0eac0d04fb9bcec9f38/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#body &gt; div.container.location-detail &gt; div &gt; div.grid-12.grid-md-5.grid-xl-6 &gt; div &gt; div:nth-child(1) &gt; div &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/91116b6def7fc0eac0d04fb9bcec9f38/elements (10ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;196122c7-2627-4f4b-9028-93d4b2bcb554&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">GET /session/91116b6def7fc0eac0d04fb9bcec9f38/element/196122c7-2627-4f4b-9028-93d4b2bcb554/attribute/href  </span></b></div><div><span style="color:#555">undefined<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/91116b6def7fc0eac0d04fb9bcec9f38/element/196122c7-2627-4f4b-9028-93d4b2bcb554/attribute/href (3ms)</div><div>{
+     value: <span style="color:#0A0">&#39;http://maps.google.com/?q= 225 N Michigan Ave, Suite 2100 Chicago, IL 60601&#39;<span style="color:#FFF">
+  }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">DELETE /session/91116b6def7fc0eac0d04fb9bcec9f38  </span></b></div><div><span style="color:#0A0">&#39;&#39;<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /session/91116b6def7fc0eac0d04fb9bcec9f38 (50ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div></div>
                   </div>
                 </div>
               </div>
@@ -186,14 +261,31 @@
     <div class="card-header" id="h2">
       <h5 class="mb-0">
         <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s0ac1" aria-expanded="false" aria-controls="s0ac1">
-          Assert Location
+          Verify Location
         </button>
       </h5>
     </div>
 
     <div id="s0ac1" class="collapse" aria-labelledby="s0ah1" data-bs-parent="#sessionfull-accordion">
 <div class="card-body"><pre>
-<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if element &lt;#body &gt; div.nav-wrapper.scroll &gt; nav &gt; ul &gt; li:nth-child(4) &gt; ul &gt; li:nth-child(2) &gt; a&gt; is present (13ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if element &lt;#body&gt; contains text &#39;Chicago&#39; (59ms)</div></pre></div></div>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if element &lt;#body &gt; div.nav-wrapper.scroll &gt; nav &gt; ul &gt; li:nth-child(4) &gt; ul &gt; li:nth-child(2) &gt; a&gt; is present (28ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if element &lt;#body&gt; contains text &#39;Chicago&#39; (68ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if the page title contains &#39;Chicago&#39; (17ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if the URL contains &#39;chicago&#39; (16ms)</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s0ac2" aria-expanded="false" aria-controls="s0ac2">
+          Verify Contents
+        </button>
+      </h5>
+    </div>
+
+    <div id="s0ac2" class="collapse" aria-labelledby="s0ah2" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if element&#39;s &lt;#body &gt; div.immersive-hero &gt; div.immersive-content-box &gt; div &gt; h1&gt; inner text equals &#39;CHI&#39; (31ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if element&#39;s &lt;#body &gt; div.container.location-detail &gt; div &gt; div.grid-12.grid-md-5.grid-xl-6 &gt; div &gt; div:nth-child(2) &gt; div &gt; p&gt; inner text equals &#39;Phone: +1 312 729 4500&#39; (22ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if element &lt;#body &gt; div.container.location-detail &gt; div &gt; div.grid-12.grid-md-7.grid-xl-6 &gt; h2&gt; has css property &#39;font-size: 40px&#39; (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if attribute &#39;href&#39; of element &lt;#body &gt; div.container.location-detail &gt; div &gt; div.grid-12.grid-md-5.grid-xl-6 &gt; div &gt; div:nth-child(1) &gt; div &gt; a&gt; contains &#39;http://maps.google.com/?q= 225 N Michigan Ave, Suite 2100 Chicago, IL 60601&#39; (19ms)</div></pre></div></div>
 
 </div>
               
