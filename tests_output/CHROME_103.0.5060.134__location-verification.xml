@@ -5,9 +5,9 @@
 
   <testsuite name="location-verification"
     errors="0" failures="0" hostname="" id="" package="location-verification" skipped="0"
-    tests="2" time="3.620" timestamp="">
+    tests="2" time="6.064" timestamp="">
   
-    <testcase name="Verify Location" classname="location-verification" time="1.499" assertions="4">
+    <testcase name="Verify Location" classname="location-verification" time="2.580" assertions="4">
 
     
 
@@ -18,7 +18,7 @@
     
     </testcase>
   
-    <testcase name="Verify Contents" classname="location-verification" time="2.121" assertions="4">
+    <testcase name="Verify Contents" classname="location-verification" time="3.484" assertions="4">
 
     
 
