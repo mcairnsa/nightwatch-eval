@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="2">
+            tests="1">
 
   <testsuite name="location-verification"
     errors="0" failures="0" hostname="" id="" package="location-verification" skipped="0"
-    tests="2" time="6.162" timestamp="">
+    tests="1" time="2.725" timestamp="">
   
-    <testcase name="Verify Location" classname="location-verification" time="2.594" assertions="4">
+    <testcase name="Verify Location" classname="location-verification" time="2.725" assertions="8">
 
     
 
@@ -16,9 +16,8 @@
     
 
     
-    </testcase>
-  
-    <testcase name="Verify Contents" classname="location-verification" time="3.568" assertions="3">
+
+    
 
     
 

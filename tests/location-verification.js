@@ -8,12 +8,6 @@ module.exports = {
         browser.verify.titleContains("Chicago");
         browser.verify.urlContains("chicago");
 
-        browser.end();
-    },
-
-    "Verify Contents": function(browser) {
-        browser.url("https://www.designory.com/locations/chicago");
-
         // verify the h1 tag contents
         browser.verify.textEquals("#body > div.immersive-hero > div.immersive-content-box > div > h1", "CHI");
         // verify the phone contents

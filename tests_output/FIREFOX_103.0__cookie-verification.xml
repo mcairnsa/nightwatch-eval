@@ -5,9 +5,9 @@
 
   <testsuite name="cookie-verification"
     errors="0" failures="0" hostname="" id="" package="cookie-verification" skipped="0"
-    tests="1" time="4.421" timestamp="">
+    tests="1" time="14.75" timestamp="">
   
-    <testcase name="cookie notice" classname="cookie-verification" time="4.421" assertions="7">
+    <testcase name="cookie notice" classname="cookie-verification" time="14.75" assertions="7">
 
     
 

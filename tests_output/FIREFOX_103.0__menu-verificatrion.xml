@@ -5,9 +5,9 @@
 
   <testsuite name="menu-verificatrion"
     errors="0" failures="0" hostname="" id="" package="menu-verificatrion" skipped="0"
-    tests="1" time="6.647" timestamp="">
+    tests="1" time="12.79" timestamp="">
   
-    <testcase name="check menu contents" classname="menu-verificatrion" time="6.647" assertions="74">
+    <testcase name="check menu contents" classname="menu-verificatrion" time="12.79" assertions="74">
 
     
 
